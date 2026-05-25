@@ -3,7 +3,7 @@ alert('Boas vindas ao jogo do número secreto!');
 
 //let nomeUsuario = prompt('Digite seu nome:');
 //let idadeUsuario = prompt('Digite sua idade');
-let numeroMaximo = 100;
+let numeroMaximo = 1000;
 let numeroSecreto = parseInt(Math.random(0,100) * numeroMaximo + 1);
 console.log(numeroSecreto);
 let chute;
